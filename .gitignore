@@ -1,0 +1,59 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Node / JS
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native / mobile
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+android/app/build/
+ios/build/
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS / Editors
+.DS_Store
+*.pem
+.idea/
+.vscode/
+Thumbs.db
+
+# Secrets / env
+.env
+.env.*
+.env*.local
+debug.keystore
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Data dumps
+*.jsonl
+*.jsonl.gz
+*.json
+
+/backend/loblaws_scraper/data
